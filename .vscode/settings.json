@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "xutility": "cpp",
+        "xstring": "cpp",
+        "xlocale": "cpp",
+        "compare": "cpp",
+        "xmemory": "cpp",
+        "ostream": "cpp",
+        "utility": "cpp",
+        "exception": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp"
+    }
+}
