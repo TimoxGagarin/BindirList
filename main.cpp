@@ -11,7 +11,6 @@ using namespace std;
 int main(){
     List<int> list;
     int arrayLength;
-    int* array = (int*)calloc(0, sizeof(int));
 
     int optionInputMode = 0;
     int operation = 0;
@@ -25,6 +24,7 @@ int main(){
     do{
         fflush(stdin);
     }while(getInt(&arrayLength) != 1 || arrayLength < 1);
+    int* array = (int*)calloc(arrayLength, sizeof(int));
 
     //Set input mode
     cout << "Choose input mode: " << endl << "1. Manual input" << endl << "2. Random input" << endl;

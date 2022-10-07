@@ -99,7 +99,6 @@ int List<Data>::index(Data key) {
     Node<Data>* pv = pbeg;
     int i = 0;
     while(pv && pv->data != key){
-        cout << key << endl;
         pv = pv->next;
         i++;
     }
